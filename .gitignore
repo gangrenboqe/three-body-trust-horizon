@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+benchmarks/recheck_*/
+.venv/
+venv/
+*.db
+*.sqlite

@@ -1,0 +1,51 @@
+{
+  "generated": "2026-10-17T19:24:01",
+  "config": {
+    "dt": 0.002,
+    "n_steps": 15815,
+    "max_periods": 5.0,
+    "sample_every": 20,
+    "tol_position": 0.5,
+    "seeds_per_eps": 30,
+    "seed_base": 1000,
+    "integrator": "Forest-Ruth 4 阶",
+    "softening": 1e-06
+  },
+  "per_eps": {
+    "0.01": {
+      "n": 30,
+      "dissolved": 27,
+      "censored": 3,
+      "T_median": 12.36,
+      "T_min": 4.16
+    },
+    "0.001": {
+      "n": 30,
+      "dissolved": 0,
+      "censored": 30,
+      "T_median": null,
+      "T_min": null
+    },
+    "0.0001": {
+      "n": 30,
+      "dissolved": 0,
+      "censored": 30,
+      "T_median": null,
+      "T_min": null
+    },
+    "1e-05": {
+      "n": 30,
+      "dissolved": 0,
+      "censored": 30,
+      "T_median": null,
+      "T_min": null
+    },
+    "1e-06": {
+      "n": 30,
+      "dissolved": 0,
+      "censored": 30,
+      "T_median": null,
+      "T_min": null
+    }
+  }
+}

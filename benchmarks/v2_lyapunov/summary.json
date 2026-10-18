@@ -1,0 +1,60 @@
+{
+  "generated": "2026-10-17T20:28:33",
+  "hypothesis": "figure-8 线性稳定（Simó 2002）→ 预期 μ≈0 或无显著指数标度区",
+  "config": {
+    "dt": 0.002,
+    "n_steps": 15815,
+    "max_periods": 5.0,
+    "sample_every": 20,
+    "fit_window": [
+      1e-08,
+      0.1
+    ],
+    "seeds_per_eps": 30,
+    "seed_base": 1000,
+    "integrator": "Forest-Ruth 4 阶",
+    "softening": 1e-06
+  },
+  "per_eps": {
+    "0.01": {
+      "n_orbits": 30,
+      "n_fittable": 30,
+      "mu_median": 0.9199988647993247,
+      "mu_mean": 0.9174598883295358,
+      "mu_pstdev": 0.30491750284468394,
+      "r2_median": 0.9700221374397526
+    },
+    "0.001": {
+      "n_orbits": 30,
+      "n_fittable": 30,
+      "mu_median": 0.10142535021767844,
+      "mu_mean": 0.13252574488911684,
+      "mu_pstdev": 0.06605090840521446,
+      "r2_median": 0.7651460455771191
+    },
+    "0.0001": {
+      "n_orbits": 30,
+      "n_fittable": 30,
+      "mu_median": 0.09361240496070927,
+      "mu_mean": 0.0905498957749007,
+      "mu_pstdev": 0.01024964031712505,
+      "r2_median": 0.7587290459150389
+    },
+    "1e-05": {
+      "n_orbits": 30,
+      "n_fittable": 30,
+      "mu_median": 0.09361313076502403,
+      "mu_mean": 0.0905500297468757,
+      "mu_pstdev": 0.010251321092312447,
+      "r2_median": 0.7587403886209062
+    },
+    "1e-06": {
+      "n_orbits": 30,
+      "n_fittable": 30,
+      "mu_median": 0.09361319467443405,
+      "mu_mean": 0.09055002526901068,
+      "mu_pstdev": 0.01025147987516636,
+      "r2_median": 0.7587413885970917
+    }
+  }
+}
