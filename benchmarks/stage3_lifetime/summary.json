@@ -1,0 +1,64 @@
+{
+  "generated": "2026-10-28T09:35:40",
+  "definition": "T = 首次 |q_perturbed(t) - q_nominal(t)|_F > tol 的时刻；到预算未超 = 右删失",
+  "config": {
+    "dt": 0.002,
+    "n_steps": 63259,
+    "max_periods": 20.0,
+    "T_budget": 126.5182796,
+    "sample_every": 20,
+    "tol_position": 0.1,
+    "seeds_per_eps": 30,
+    "seed_base": 1000,
+    "integrator": "Forest-Ruth 4 阶",
+    "softening": 1e-06,
+    "nominal_trajectory": "figure-8, eps=0"
+  },
+  "per_eps": {
+    "0.01": {
+      "n": 30,
+      "crossed": 30,
+      "censored": 0,
+      "T_median": 2.46,
+      "T_min": 1.56,
+      "T_max": 6.08,
+      "censored_fraction": 0.0
+    },
+    "0.001": {
+      "n": 30,
+      "crossed": 30,
+      "censored": 0,
+      "T_median": 27.92,
+      "T_min": 10.040000000000001,
+      "T_max": 92.56,
+      "censored_fraction": 0.0
+    },
+    "0.0001": {
+      "n": 30,
+      "crossed": 2,
+      "censored": 28,
+      "T_median": 113.12,
+      "T_min": 105.72,
+      "T_max": 120.52,
+      "censored_fraction": 0.9333333333333333
+    },
+    "1e-05": {
+      "n": 30,
+      "crossed": 0,
+      "censored": 30,
+      "T_median": null,
+      "T_min": null,
+      "T_max": null,
+      "censored_fraction": 1.0
+    },
+    "1e-06": {
+      "n": 30,
+      "crossed": 0,
+      "censored": 30,
+      "T_median": null,
+      "T_min": null,
+      "T_max": null,
+      "censored_fraction": 1.0
+    }
+  }
+}
